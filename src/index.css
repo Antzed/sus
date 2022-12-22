@@ -1,13 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.sussyBaka {
+  z-index: -1;
+}
+
+.hide {
+  display: none;
+}
+
+.startButton {
+  position: center;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  z-index: 1;
+  background-color: transparent;
+  
+}
+
+span {
+  margin-top: 25%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+} 
+
+
+.sussy-background{
+  background-image: url("./spirte/dataimagejpegbase649j4AAQSkZJRgABAQEACwALAAD2wBDAA-f392c005cbadd2d4ae78fcc495856a0b.webp");
+  position: cover;
+  height: 100rem;
+  z-index: 3;
 }
