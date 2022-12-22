@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 //import button from react-bootstrap
 import Button from 'react-bootstrap/Button';
 import { SussyBakas } from './Components/sussy-bakas';
-import ReactAudioPlayer from 'react-audio-player';
 import song from './song/youtube-grd-K33tOSM-Among Us Drip Theme Song Original (Among Us Trap Remix _ Amogus Meme Music).webm';
 
 
