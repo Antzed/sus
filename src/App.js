@@ -13,13 +13,12 @@ function App() {
   const [showButton, setShowButton] = React.useState("");
   const [showSussyBakas, setShowSussyBakas] = React.useState(null);
   const [overallClass, setOverallClass] = React.useState("startButton");
-  // const [audio, setAudio] = React.useState(null);
  
   const startGame = () => {
     setShowButton("hide");
     setOverallClass("startButton sussy-background");
     setShowSussyBakas(susInitial);
-    // setAudio();
+
     
 
   }
@@ -28,6 +27,7 @@ function App() {
 
   function play(){
     audio.play()
+    audio.autoplay = true;
 
   }
 
